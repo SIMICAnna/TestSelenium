@@ -1,4 +1,6 @@
 public class Vezba19 {
+
+
     public static void main(String[] args) {
 
         String [] objects = {"BMW", "BMX", "Samsung"};
@@ -21,9 +23,6 @@ public class Vezba19 {
             System.out.println("Nizovi nisu iste duzine. Ne mogu prikazati podatke o pojmovima.");
         }
        // Ovaj kod prvo provjerava jesu li svi nizovi iste duljine. Ako jesu, tada koristi petlju za iteraciju kroz sve elemente nizova i prikazuje podatke o svakom pojmu (objektu, nazivu i cijeni). Ako nizovi nisu iste duzine, ispisuje se odgovarajuća poruka o grešci.
-
-
-
 
 
 
