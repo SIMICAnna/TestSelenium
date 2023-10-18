@@ -44,19 +44,38 @@ public class Main {
         //      } else {
         //          System.out.println("parna");
 
-        int n = 10; // Veličina tablice (od 1 do n)
-        int faktori[] = {1, 2, 3}; // Faktori množenja
+//        int n = 10; // Veličina tablice (od 1 do n)
+//        int faktori[] = {1, 2, 3}; // Faktori množenja
+//
+//        for (int i = 1; i <= n; i++) {
+//            for (int faktor : faktori) {
+//                int rezultat = i * faktor;
+//                System.out.print(rezultat + "\t"); // "\t" dodaje tabulator između brojeva
+//            }
+//            System.out.println(); // Prelazak u novi red nakon svakog reda tablice
+//        }
+    Adresa adresa = new Adresa("Kralja Milana", 6, "Kraljevo");
+    Student student = new Student("Mitar", "Mitrovic", "mika@email.com", adresa,"45/7");
 
-        for (int i = 1; i <= n; i++) {
-            for (int faktor : faktori) {
-                int rezultat = i * faktor;
-                System.out.print(rezultat + "\t"); // "\t" dodaje tabulator između brojeva
-            }
-            System.out.println(); // Prelazak u novi red nakon svakog reda tablice
+        Profesor profesor = new Profesor("Petar", "Peric", "pera@imail.com",adresa,"Matematika" );
+
+
+        System.out.println(student);
+        System.out.println(profesor);
+
+
+
+
+
         }
 
 
-        }
+
+
+
+
+
+
 
     }
 
