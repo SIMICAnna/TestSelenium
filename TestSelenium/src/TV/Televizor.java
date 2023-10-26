@@ -2,24 +2,29 @@ package TV;
 
 public class Televizor {
 
-    boolean ukljucen = false;
-    int jacinaTona = 0;
+    private boolean ukljucen = false;
+    private int jacinaTona = 0;
 
     public Televizor() {
     }
 
     public Televizor(boolean ukljucen) {
+
         ukljucen = ukljucen;
     }
 
     public Televizor(int jacinaTona) {
+
         jacinaTona = jacinaTona;
     }
 
     public Televizor(boolean ukljucen, int jacinaTona) {
+        if (ukljucen){
         this.ukljucen = ukljucen;
         this.jacinaTona = jacinaTona;
     }
+    }
+
 
     public void pojacajTon() {
         if (jacinaTona < 20) {

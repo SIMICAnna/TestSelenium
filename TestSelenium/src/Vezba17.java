@@ -13,7 +13,7 @@ public class Vezba17 {
         while (igra) {
             int zamisljenBroj = random.nextInt(10) + 1; // Zamisli broj između 1 i 10
             boolean brojJePogodjen = false;
-
+            System.out.println(zamisljenBroj);
             System.out.println("Zamislio sam broj između 1 i 10. Pogodi ga!");
 
             while (!brojJePogodjen) {
@@ -25,7 +25,7 @@ public class Vezba17 {
                     brojJePogodjen = true;
                 } else {
                     System.out.println("Niste pogodili. Pokušajte ponovo.");
-                }break;
+                };
             }}}}
 
 

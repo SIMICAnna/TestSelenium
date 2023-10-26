@@ -9,7 +9,7 @@ public class Vezba16 {
 //            }
 //            System.out.println(); // Dodaj prazan red između tablica
 //        }
-        for (double i = 1; i <= 8; i++) {
+        for (double i = 1; i <= 10; i++) {
             System.out.println("Tabla deljenja za " + i + ":");
             for (double j = 1; j <= 2; j++) {
                 double rezultat = (double) (i / j);
